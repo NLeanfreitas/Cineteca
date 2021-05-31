@@ -1,3 +1,15 @@
+ Membros
+            Vivia 
+            Julia
+            Kael
+            Gustavo
+            Leandro
+            Mayron
+            Lucas
+
+
+
+
 Cineteca
 Criar um sistema web que tenha:
 Página de login e criação de cadastro
@@ -7,5 +19,5 @@ Páginas individual para cada personagem principal de um filme.
 Criar um projeto no  github project e dividir as tarefas.
 Um membro deve criar o repositório e convidar os membros da equipe para contribuir. Criar branches para realizar merge na main.
 
-Criar o arquivo readme.md e colocar:
-o propósito do repositório; os membros da equipe;
+
+
