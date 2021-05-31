@@ -11,7 +11,8 @@
         background-image: url();
     }
     
-    .carousel {
+    .carousel-inner {
+        image-orientation: flip;
         height: 500px;
         width: 500px;
     }
