@@ -8,6 +8,31 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/estilo.css">
 
+    <script>
+        var submeterformulario = function(){
+        var nome = document.querySelector("#examplenome").value;
+        var email = document.querySelector("#exampleInputEmail1").value;
+        var senha = document.querySelector("#exampleInputPassword1").value;
+
+        if (nome == "") {
+            alert("O campo nome esta vazio");
+            formuser.nome.focus();
+            return false;
+        }
+        if (email == "") {
+            alert("O campo E-mail esta vazio");
+            formuser.email.focus();
+            return false;
+        }
+        if (senha == "") {
+            alert("O campo Senha esta vazio");
+            formuser.senha.focus();
+            return false;
+        }
+      }
+
+    </script>
+
 </head>
 <body>
         <ul class="nav nav-tabs">
@@ -22,6 +47,24 @@
                 </li>
               </ul>
 
+              <form  name="formuser" action="index.html">
+                  <div class="form-group">
+                      <label for="examplenome">Nome</label>
+                      <input type="text" name="Nome" class="form-control" id="examplenome" aria-describedby="emailHelp"
+                          placeholder="Seu nome">
+                  </div>
+                  <div class="form-group">
+                      <label for="exampleInputEmail1">Endereço de email</label>
+                      <input type="email" name="E-mail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                          placeholder="Seu email">
+                      <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+                  </div>
+                  <div class="form-group">
+                      <label for="exampleInputPassword1">Senha</label>
+                      <input type="password" name="Senha" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                  </div>
+                  <input type="submit" onclick="submeterformulario()" class="btn btn-primary"></input>
+              </form>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

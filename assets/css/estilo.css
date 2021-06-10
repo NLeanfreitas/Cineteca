@@ -8,3 +8,61 @@ body {
     padding-top: 40px;
 }
 
+.title {
+    text-align: center;
+    color: green;
+}
+
+.cc {
+    text-align: center;
+}
+
+.background {
+    background-image: url();
+}
+
+.img {
+    width: 500px;
+    height: 500px;
+}
+
+div.row {
+    transform: scale(1.1);
+}
+
+.row:hover {
+    box-shadow: 0 0 30px rgb(8, 199, 33);
+}
+
+.row.skew:hover {
+    transform: skew(0deg);
+}
+
+nav li{
+    display: inline ;
+    padding: 50px;
+
+}
+nav{
+    background-color: black;
+    height: 50px;
+}
+
+a{
+    color: green
+}
+img{
+    height: 400px;
+    padding: 50px;
+}
+div{
+    display: inline;
+    font-family: sans-serif;
+}
+div li a:hover{
+    color: blue;
+}
+.azul{
+    color: blue;
+}
+
