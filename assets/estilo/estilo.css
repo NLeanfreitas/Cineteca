@@ -1,0 +1,30 @@
+body{
+    
+}
+nav li{
+    display: inline ;
+    padding: 50px;
+
+}
+nav{
+    background-color: black;
+    height: 50px;
+}
+
+a{
+    color: blanchedalmond;
+}
+img{
+    height: 400px;
+    padding: 50px;
+}
+div{
+    display: inline;
+    font-family: sans-serif;
+}
+div li a:hover{
+    color: blue;
+}
+.azul{
+    color: blue;
+}
