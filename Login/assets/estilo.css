@@ -1,0 +1,27 @@
+body {
+    background-image: url(image/rango2.jpg);
+}
+
+.vermelho {
+    color: red;
+}
+
+.azul {
+    color: blue;
+}
+
+.verde {
+    color: green;
+}
+
+.amarelo {
+    color: yellow;
+}
+
+.roxo {
+    color: purple;
+}
+
+.branco {
+    color: white;
+}
