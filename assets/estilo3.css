@@ -1,0 +1,13 @@
+body {
+    background-image: url(image/rango-movie-image-4.jpg);
+    background-size: cover;
+    opacity: 50;
+}
+
+.font-size {
+    font-size: 30px;
+}
+
+.branco {
+    color: red;
+}

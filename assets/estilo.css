@@ -1,0 +1,28 @@
+body {
+    background-image: url(image/rangofundo.jpg);
+    background-size: cover;
+}
+
+.vermelho {
+    color: red;
+}
+
+.azul {
+    color: blue;
+}
+
+.verde {
+    color: green;
+}
+
+.amarelo {
+    color: yellow;
+}
+
+.roxo {
+    color: purple;
+}
+
+.branco {
+    color: white;
+}
