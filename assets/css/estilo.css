@@ -2,6 +2,10 @@ body {
     border: 2px solid green;
     padding-right: 40px;
     padding-left: 40px;
+    background-image: url(image/rango-movie-image-4.jpg);
+    background-size: cover;
+    opacity: 50;
+    
 }
 
 .aa {
@@ -66,3 +70,11 @@ div li a:hover{
     color: blue;
 }
 
+
+.font-size {
+    font-size: 30px;
+}
+
+.branco {
+    color: red;
+}
